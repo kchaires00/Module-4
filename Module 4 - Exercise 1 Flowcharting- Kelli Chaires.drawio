@@ -1,0 +1,102 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+  <diagram name="Page-1" id="H5IB_t_DFmJHeTDpifxf">
+    <mxGraphModel dx="1428" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="23Qrk13wxBq1e72gL194-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-1" target="23Qrk13wxBq1e72gL194-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="190" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-2" target="23Qrk13wxBq1e72gL194-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-2" value="Pick a number&lt;div&gt;between 1 and 100&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-3" target="23Qrk13wxBq1e72gL194-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-3" value="input&lt;div&gt;player makes&amp;nbsp;&lt;/div&gt;&lt;div&gt;a guess&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="147.5" y="240" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-4" target="23Qrk13wxBq1e72gL194-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-4" value="Is guess&lt;div&gt;correct?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="177.5" y="360" width="125" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-5" value="is guess&lt;div&gt;too high or&amp;nbsp;&lt;/div&gt;&lt;div&gt;too low?&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="480" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-10" target="23Qrk13wxBq1e72gL194-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-10" value="output&lt;div&gt;Tell player: correct!&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="148.75" y="540" width="182.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-11" target="23Qrk13wxBq1e72gL194-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-11" value="output&lt;div&gt;Tell player:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Too high&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="332.5" y="600" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-12" target="23Qrk13wxBq1e72gL194-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="628" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-12" value="output&lt;div&gt;Tell player:&lt;/div&gt;&lt;div&gt;Too low&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="540" y="600" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="860" />
+              <mxPoint x="780" y="860" />
+              <mxPoint x="780" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-13" value="input&lt;div&gt;Player makes&lt;/div&gt;&lt;div&gt;a guess&lt;/div&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="440" y="760" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-4" target="23Qrk13wxBq1e72gL194-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;entryX=0.574;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="23Qrk13wxBq1e72gL194-5" target="23Qrk13wxBq1e72gL194-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="431" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.577;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" parent="1" source="23Qrk13wxBq1e72gL194-5" target="23Qrk13wxBq1e72gL194-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23Qrk13wxBq1e72gL194-27" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="190" y="660" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R1mHfdxM-lNTmdvKoTjB-1" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="388" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R1mHfdxM-lNTmdvKoTjB-2" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="485" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R1mHfdxM-lNTmdvKoTjB-3" value="Too high" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="415" y="468" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R1mHfdxM-lNTmdvKoTjB-4" value="Too low" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="468" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
